@@ -1,10 +1,10 @@
 def my_hash
-  your_hash = {brew => "fin du monde", chips => "lays"}
+  your_hash = {"brew" => "fin du monde", "chips" => "lays"}
 end
 
 
 def shipping_manifest
-the_manifest = {whale bone corsets => 5, porcelain vases => 2, oil paintings => 3}
+the_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3}
 end
 
 def retrieval
@@ -13,7 +13,7 @@ def retrieval
                   "porcelain vases" => 2,
                   "oil paintings" => 3
                  }
-
+retrieval ["oil paintings"]
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
 
 end
